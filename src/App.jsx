@@ -37,10 +37,10 @@ const App = () => {
     setWinningTiles([]);
   };
   return (
-    <div className="bg-gradient-to-br from-gray-900 to-purple-950 h-screen w-screen flex justify-center items-center flex-col">
+    <div className="bg-linear-to-br from-gray-900 to-purple-950 h-screen w-screen flex justify-center items-center flex-col">
       <h1 className="text-5xl font-bold text-white mb-12 ">
         React{" "}
-        <span className="bg-gradient-to-r from-cyan-400 to-emerald-500 text-transparent bg-clip-text">
+        <span className="bg-linear-to-r from-cyan-400 to-emerald-500 text-transparent bg-clip-text">
           XO
         </span>{" "}
         Game

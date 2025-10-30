@@ -12,5 +12,5 @@ const Tile = ({ value, onClick, iswinner }) => {
     </div>
   );
 };
-// cyan-400  emerald-500
+
 export default Tile;
