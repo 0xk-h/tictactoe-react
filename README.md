@@ -1,12 +1,109 @@
-# React + Vite
+# 🎮 React Tic-Tac-Toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Tic-Tac-Toe game built with **React** and **Tailwind CSS** — featuring clean UI, winner highlighting, draw detection, and instant reset.  
+A fun mini-project to practice components, hooks, and state logic in React.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Component-based structure (Board, Tile, GameStatus, ResetButton)
+- Winner and draw detection
+- Highlighted winning tiles
+- Responsive and minimalist UI
+- Instant restart button
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Tech Stack
+
+- **React** – UI library
+- **Tailwind CSS** – styling and layout
+- **JavaScript (ES6+)** – logic and interactivity
+
+---
+
+## 📂 Folder Structure
+
+```
+react-tictactoe/
+├── public
+│   └── XOLogo.png
+├── assets/
+│   ├── preview1.jpg
+│   ├── preview2.jpg
+│   └── preview3.jpg
+├── src
+│   ├── App.jsx
+│   ├── Components
+│   │   ├── Board.jsx
+│   │   ├── GameStatus.jsx
+│   │   ├── ResetButton.jsx
+│   │   └── Tile.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   └── Utils
+│       └── CheckWinner.jsx
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js
+```
+
+---
+
+## 💡 How to Run
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/react-tictactoe.git
+   cd react-tictactoe
+   ```
+
+2. Install dependencies
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser at http://localhost:5173 (Vite default)
+
+---
+
+## 🖼️ Preview
+
+![Preview](assets/preview1.png)
+
+![Preview](assets/preview2.png)
+
+![Preview](assets/preview3.png)
+
+---
+
+## 🎯 Future Ideas
+
+- Add single-player mode with AI (Minimax algorithm)
+- Track player scores using localStorage
+- Add sound effects and smooth animations
+- Add theme toggle (light/dark)
+- Convert to multiplayer using WebSockets or Firebase
+
+---
+
+## 🧠 Learnings
+
+- React state management with hooks
+- Component-driven architecture
+- Conditional rendering and event handling
+- Responsive UI design with Tailwind CSS
+
+---
