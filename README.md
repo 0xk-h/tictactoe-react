@@ -59,8 +59,8 @@ react-tictactoe/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/react-tictactoe.git
-   cd react-tictactoe
+   git clone https://github.com/0xk-h/tictactoe-react.git
+   cd tictactoe-react
    ```
 
 2. Install dependencies
